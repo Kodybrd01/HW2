@@ -30,7 +30,7 @@ You must **create a table** that shows the courses you are currently enrolled in
 |**Class Name**                      |**Class Number**|**Credits**|
 |               :---:                |     :---:      |    :---:  |
 |**Into to Comp and Programming**    |**2271**        |3          |
-|**Inro to Data Science**            |**2073**        |3          |
+|**Into to Data Science**            |**2073**        |3          |
 |**Python for Data Analytics**       |**2310**        |3          |
 |**Analytic Geometry and Calculus 1**|**2311**        |4          |
 
@@ -75,21 +75,14 @@ print(name_length)
 
 (c) Show which value is bigger: $e^\pi$ or $\pi^e$. (Use the correct expressions for Euler's constant $e$ and the irrational number $\pi$ in R)
 
-
-
-
 ```{r}
-eulers <- e^pi
-```
 
-
-```{r}
-if(e^pi > pi^e){
-    print('$e^pi$ is the larger number')
-  else{
-    print('$pi^e$ is the larger number')
+if((exp(1) ^ pi) > (pi ^ exp(1))){
+    print('e^pi is the larger number')
+}else
+{
+    print('pi^e is the larger number')
   }
-}
 ```
 
 
