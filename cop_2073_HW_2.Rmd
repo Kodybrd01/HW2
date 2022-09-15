@@ -25,10 +25,12 @@ You must **create a table** that shows the courses you are currently enrolled in
 - Name: in italics (such as _Introduction to Data Science_)
 - Credits (such as 3)
 
-|**Class Name**|
-|
-|
-|
+|**Class Name**                      |**Class Number**|**Credits**|
+|               :---:                |     :---:      |    :---:  |
+|**Into to Comp and Programming**    |**2271**        |3          |
+|**Inro to Data Science**            |**2073**        |3          |
+|**Python for Data Analytics**       |**2310**        |3          |
+|**Analytic Geometry and Calculus 1**|**2311**        |4          |
 
 
 
