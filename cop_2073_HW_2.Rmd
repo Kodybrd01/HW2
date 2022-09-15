@@ -42,6 +42,8 @@ You must **create a table** that shows the courses you are currently enrolled in
 Take a screenshot of the GitHub repo you used in HW 01, add the screenshot file to the repo, and include it in this document (review how to insert a picture using markdown).
 
 
+![picture of HW1](picForHW2.png)
+
 
 
 # Problem 2 (30 points)
@@ -145,7 +147,7 @@ mean(1:17)
 (d) (5 points) Create an object named `die` that contains the numbers one through six. Simulate a roll of the die with `R`’s `sample()` function. 
 
 ```{r}
-die <- sample(x,1,6)
+die <- sample(6, replace = TRUE)
 print(die)
 ```
 
