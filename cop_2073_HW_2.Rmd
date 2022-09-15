@@ -1,7 +1,9 @@
 ---
 title: "Introduction to Data Science - HW 2"
 subtitle: "Kody Byrd - `kbyrd4000@floridapoly.edu`"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 ```{r}
 library("stringr")
