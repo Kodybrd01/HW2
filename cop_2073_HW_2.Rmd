@@ -25,6 +25,11 @@ You must **create a table** that shows the courses you are currently enrolled in
 - Name: in italics (such as _Introduction to Data Science_)
 - Credits (such as 3)
 
+|**Class Name**|
+|
+|
+|
+
 
 
 ## Part B
